@@ -139,5 +139,5 @@ table {
 /* Main Variable  */
 :root {
 	--box-shadowBlur: rgba(149, 157, 165, 0.2) 0px 8px 24px;
-
+	--color-accent:#036030;
 }

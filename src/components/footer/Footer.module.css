@@ -1,0 +1,7 @@
+.Footer{
+    width: 100%;
+    min-height: 10rem;
+    background-color: var(--color-accent);
+    display: flex;
+}
+
