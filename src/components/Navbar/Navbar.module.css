@@ -18,12 +18,15 @@
 }
 .NavLink{
     height: 150px;
+    cursor: pointer;
     object-fit: cover;
     image-rendering: optimizeSpeed;
 }
 .NavPhone{
+    color: var(--color-black);
     margin-bottom: 0.5rem;
     column-gap: 0.6rem;
+    font-weight: 300;
     display: flex;
     align-items: center;
  

@@ -1,8 +1,14 @@
 import React from 'react'
+import { Swiper, SwiperSlide } from "swiper/react"
+//css
+import styles from "./HomeSlider.module.css"
+//Static Import Array
 
 const HomeSlider = () => {
   return (
-    <div>HomeSlider</div>
+    <Swiper className={styles.SliderContainer}>
+      
+    </Swiper>
   )
 }
 
