@@ -1,5 +1,5 @@
 //styles
-import "./App.css"
+import styles from "./App.module.css"
 
 //Components
 import Navbar from "./components/Navbar/Navbar"
@@ -8,14 +8,12 @@ import StatsBox from "./components/Statsbox/StatsBox"
 import Footer from "./components/footer/Footer"
 
 function App() {
-
-
   return (
-    <main>
-    <Navbar/>
-    <HomeSlider/>
-    <StatsBox/>
-    <Footer/>
+    <main className={styles.Pagecontainer}>
+      <Navbar />
+      <HomeSlider />
+      <StatsBox />
+      <Footer />
     </main>
   )
 }
